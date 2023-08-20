@@ -1,2 +1,2 @@
 # Content-based-music-recommender
-A simple music recommender model that uses Term Frequency-Inverse Document Frequency (TF-IDF) for keyword matching
+A simple music recommender model that uses Term Frequency-Inverse Document Frequency (TF-IDF) for keyword matching. The dataset used is from https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset which contains around 57k songs. After calculating TF-IDF score for each song, cosine similarity is used to calculate the similarity between one lyric to another. For the input, user can specify the location of the song in the dataset or type the title of the song. Four songs with the highest similarity index will be displayed as output.
